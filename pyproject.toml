@@ -15,7 +15,8 @@ dependencies = [
   "f90nml>=1.1.0",
   "numpy>=2",
   "xarray",
-  "pyrte-rrtmgp @ git+https://github.com/NOAA-GFDL/pyRTE-RRTMGP.git@main"
+  # last working revision, see https://github.com/NOAA-GFDL/pySHiELD/issues/115
+  "pyrte-rrtmgp @ git+https://github.com/NOAA-GFDL/pyRTE-RRTMGP.git@278ec0a596f96a17da071d8d221b9dfb0312850f"
 ]
 description = "pySHiELD is a collection of NDSL-based physical parameterizations"
 license = "Apache-2.0"
